@@ -1,0 +1,44 @@
+用户基本信息
+<view>
+  <view>用户名:</view>
+  <view class="txt2">{{list.name}}</view>
+  <view>性别:</view>
+  <view class="txt2">{{list.sex}} </view>
+  <view>生日:</view>
+  <view class="txt2">{{list.birth}} </view>
+  <view>教师权限:</view>
+  <view class="a">
+  <view class="txt2"> {{list.q1}}  </view>
+  <view class="bt1" hover-class="bt1Hover" bindtap="b1">给予权限</view>
+  <view class="bt1" hover-class="bt1Hover" bindtap="b2">收回权限</view>
+ </view>
+  <view>管理员权限:</view>
+  <view class="a">
+  <view class="txt2">{{list.q2}}</view>
+  <view class="bt1" hover-class="bt1Hover" bindtap="b3">给予权限</view>
+  <view class="bt1" hover-class="bt1Hover" bindtap="b4">收回权限</view>
+  </view>
+</view>
+<view>选择的课程</view>
+<block wx:for="{{list1}}">
+  <view class="a">
+  <view class="txt2">{{item.name}}</view>
+  <view class="bt1" hover-class="bt1Hover" bindtap="b5" data-id="{{item._id}}">删除课程</view>
+  </view>
+</block>
+<view>发布的课程</view>
+<block wx:for="{{list2}}">
+  <view class="a">
+  <view class="txt2">{{item.name}}</view>
+  <view class="bt1" hover-class="bt1Hover" bindtap="b6"  data-id="{{item._id}}">删除课程</view>
+  </view>
+</block>
+<view>发布的评论</view>
+<block wx:for="{{list3}}">
+  <view class="a">
+  <view class="txt2">{{item.duiha}}</view> 
+  <view class="txt1">发布于{{item.coursename}}</view>
+  <view class="bt1" hover-class="bt1Hover" bindtap="b7">删除评论</view>
+</view>
+</block>
+

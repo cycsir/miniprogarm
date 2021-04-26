@@ -1,0 +1,7 @@
+<view>{{name2}}</view>
+<view>课程章节</view>
+<block wx:for="{{list}}">
+<view class="jiemian2" bindtap="a1" data-id="{{item._id}}">
+  <view>{{item.zhangjie}}</view>
+</view>
+</block>

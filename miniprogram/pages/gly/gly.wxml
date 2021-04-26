@@ -1,0 +1,12 @@
+<view>用户信息</view>
+<view class="txt1">用户ID  用户性别  用户生日  教师权限 管理员权限</view>
+<block wx:for="{{list}}">
+  <view class="jiemian2" bindtap="a" data-id="{{item._openid}}">
+   <view class="txt2">{{item.name}}</view>       
+   <view class="txt2">{{item.sex}}</view>      
+   <view  class="txt3">{{item.birth}}</view>      
+   <view  class="txt2">{{item.q1}}</view>  
+   <view  class="txt2">{{item.q2}}</view>          
+  </view>
+</block>
+

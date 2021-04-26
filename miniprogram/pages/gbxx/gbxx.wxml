@@ -1,0 +1,31 @@
+<view class='com-selectBox'>
+    昵称：
+    <input type="text" bindinput="getn"></input>
+    性别：
+    <view class='list-msg2' bindtap='bindShowMsg'>
+        <text>{{select_sex}}</text>
+        <image style='height:50rpx;width:50rpx;'></image>
+    </view>
+    <view class="select_box" wx:if="{{select}}">
+        <view class="select_one" bindtap="mySelect" data-name="男">男</view>
+        <view class="select_one" bindtap="mySelect" data-name="女">女</view>
+     </view>
+    生日：
+    <view class="section">
+  
+  <picker mode="date" value="{{date}}"  bindchange="bindDateChange">
+    <view class="picker">
+      {{date}}
+    </view>
+  </picker>
+</view>
+<view class="section">
+地区：
+  <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+    <view class="picker">
+      {{region[0]}}-{{region[1]}}-{{region[2]}}
+    </view>
+  </picker>
+</view>
+</view>
+<button  type="primary"  bindtap="fresh">改变信息</button>

@@ -1,0 +1,47 @@
+input{
+  border:1rpx solid gray;
+}
+.com-selectBox{
+  width: 250px;
+  margin:30rpx;
+  margin-left: 70rpx;
+  /* border:1px solid red; */
+}
+.bt1{ width:150rpx; height:50rpx ;background-color: rgb(54, 218, 22); 
+  font-size:25rpx; color: honeydew;
+  text-align: center;
+  line-height: 50rpx;
+  margin-top: 5rpx;
+  border-radius: 2rpx;
+}
+.bt1Hover{
+  background-color: rgb(44, 124, 28); 
+}
+.v1{
+  height:400rpx;
+  width:100%
+}
+.row{
+  display: flex;
+  height: 100rpx;
+  margin-bottom: 20rpx;
+}
+.pic{
+  flex:2;
+}
+.pic image{
+  width: 100rpx;
+  height: 100%;
+}
+.text{
+  flex:8;
+  background-color: #eeeeee;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+
+}
+.text .title{
+  font-size: 30rpx;
+  
+}

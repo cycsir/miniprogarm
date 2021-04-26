@@ -1,0 +1,50 @@
+<swiper class="banner" indicator-dots indicator-color="white" autoplay circular>
+  <swiper-item >
+    <image src="/images/1.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/images/2.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/images/3.jpg"></image>
+  </swiper-item>
+</swiper>
+<scroll-view class="major" scroll-x>
+  <view class="majorcon">
+  <view class="box"> 
+    <image class="pic" src="/images/home_page/computer.png" mode="aspectFill"></image>
+    <view class="txt">计算机</view>
+  </view>
+  <view class="box"> 
+    <image class="pic" src="/images/home_page/account.png" mode="aspectFill"></image>
+    <view class="txt">会计</view>
+  </view>
+  <view class="box"> 
+    <image class="pic" src="/images/home_page/management.png" mode="aspectFill"></image>
+    <view class="txt">管理</view>
+  </view>
+  <view class="box"> 
+    <image class="pic" src="/images/home_page/english.png" mode="aspectFill"></image>
+    <view class="txt">英语</view>
+  </view>
+  <view class="box"> 
+    <image class="pic" src="/images/home_page/histroy.png" mode="aspectFill"></image>
+    <view class="txt">历史</view>
+  </view>
+  </view>
+</scroll-view>
+<view class="goods-container">
+  <block wx:for="{{list}}">
+    <view class="goods-box" bindtap="toDetailsTap" bindtap="a" data-id="{{item._id}}">
+      <view class="img-box">
+        <image src="{{item.img}}" class="image" mode="aspectFill" lazy-load="true" />
+      </view>
+      <view class="goods-price">{{item.name}}</view>
+      <view class="goods-price-container">
+        <view class="goods-title">{{item.teacher}}</view>
+       </view>
+    </view>
+  </block>
+</view>
+
+

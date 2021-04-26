@@ -1,0 +1,8 @@
+<view>{{name2}}</view>
+<view>布置的课程章节</view>
+<block wx:for="{{list}}">
+<view class="jiemian2">
+  <view>{{item.zhangjie}}</view>
+</view>
+</block>
+<button type="primary" bindtap="c">添加新课程</button>

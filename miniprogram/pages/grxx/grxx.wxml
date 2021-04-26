@@ -1,0 +1,40 @@
+<view class="jiemian1">
+  <view class="pic2"><open-data type="userAvatarUrl"></open-data></view>
+  <view class="t1"><open-data type="userNickName"></open-data></view>
+<view class="jiemian2">
+    <view class="a">
+    <image class="pic1" src="/images/order-details/icon-jycg.png" mode="aspectFill"></image>
+    <view class="txt1">昵称</view>
+    <view class="txt2">{{name}}</view>
+    </view>
+</view>
+<view class="jiemian2">
+  <view class="a">
+    <image class="pic1" src="/images/order-details/icon-jycg.png" mode="aspectFill"></image>
+    <view class="txt1">性别</view>
+    <view class="txt2">{{sex}}</view>
+    </view>
+</view>
+<view class="jiemian2">
+  <view class="a">
+    <image class="pic1" src="/images/order-details/icon-jycg.png" mode="aspectFill"></image>
+    <view class="txt1">生日</view>
+    <view class="txt2">{{birth}}</view>
+    </view>
+</view>
+<view class="jiemian2" bindtap="qx1">
+  <view class="a">
+    <image class="pic1" src="/images/order-details/icon-jycg.png" mode="aspectFill"></image>
+    <view class="txt1">{{ch1}}</view>
+    </view>
+</view>
+<view class="jiemian2" bindtap="qx2">
+  <view class="a">
+    <image class="pic1" src="/images/order-details/icon-jycg.png" mode="aspectFill"></image>
+    <view class="txt1">管理端入口</view>
+    </view>
+</view>
+<button type="primary" bindtap="a">改变信息</button>
+</view>
+
+

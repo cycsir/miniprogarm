@@ -1,0 +1,14 @@
+<view class='com-selectBox'>
+<view>{{list.zhangjie}}</view>
+<view>学习文件</view>
+  <view class="row" bindtap="a">
+    <view class="pic">
+      <image src="/images/word.jpg"></image>
+    </view>
+    <view class="text">
+      <view class="title" >{{list.name}}</view>
+    </view>
+  </view>
+<view>学习视频</view>
+<video src="{{list.video}}" class="v1"></video>
+</view>

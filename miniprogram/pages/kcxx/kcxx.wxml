@@ -1,0 +1,45 @@
+<swiper class="banner" indicator-dots indicator-color="white" autoplay circular>
+  <swiper-item >
+    <image src="/images/1.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/images/2.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/images/3.jpg"></image>
+  </swiper-item>
+</swiper>
+<view class="jiemian">
+  {{name2}}
+</view>
+<view class="jiemian1">
+  已选老师与时间
+  <view class="jiemian2">
+  <image class="pic" src="/images/order-details/icon-jycg.png" mode="aspectFill"></image>
+  <view class="t1">
+  <view class="t2">{{teacher}}</view>
+  <view style="color:grey" class="t3">具体时间到时候再说</view>
+  </view>
+  </view>
+</view>
+<view>发布评论</view>
+<input bindinput="getn"></input>
+<button bindtap="fresh" type="primary">发布</button>
+<view class="jiemian1">
+  课程效果与反馈
+  <block wx:for="{{list}}">
+  <view class="a">
+  <view class="jiemian2">
+  <image class="pic" src="/images/order-details/icon-jycg.png" mode="aspectFill"></image>
+  <view class="t1">
+  <view class="t2">{{item.name}}</view>
+  <view style="color:grey" class="t3">具体时间到时候再说</view>
+  </view>
+  </view>
+  <view class="txt1">
+    {{item.duiha}}
+  </view>
+  </view>
+  </block>
+</view>
+<button type="primary" bindtap="fresh1">立即报名</button>

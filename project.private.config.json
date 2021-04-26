@@ -1,0 +1,89 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "name": "pages/wo/wo",
+          "pathName": "pages/wo/wo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/grxx/grxx",
+          "pathName": "pages/grxx/grxx",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/kcxx/kcxx",
+          "pathName": "pages/kcxx/kcxx",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/gbxx/gbxx",
+          "pathName": "pages/gbxx/gbxx",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/xueqing/xueqing",
+          "pathName": "pages/xueqing/xueqing",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/fbkc/fbkc",
+          "pathName": "pages/fbkc/fbkc",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/lskc/lskc",
+          "pathName": "pages/lskc/lskc",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/gly/gly",
+          "pathName": "pages/gly/gly",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/tjkc/tjkc",
+          "pathName": "pages/tjkc/tjkc",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/xsxx/xsxx",
+          "pathName": "pages/xsxx/xsxx",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/xskc/xskc",
+          "pathName": "pages/xskc/xskc",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

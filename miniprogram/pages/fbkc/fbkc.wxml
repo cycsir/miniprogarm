@@ -1,0 +1,9 @@
+<view class='com-selectBox'>
+<view>课程名称</view>
+<input bindinput="getn"></input>
+<view class="bt1" hover-class="bt1Hover" bindtap="a" >选择图片</view>
+<view>如果不上传就使用默认图片</view>
+<image src="{{imgurl}}" mode="aspectFill" class="ig"></image>
+<button bindtap="fresh" type="primary">添加课程</button>
+
+</view>

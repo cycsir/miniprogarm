@@ -1,0 +1,18 @@
+<view class='com-selectBox'>
+<view>章节名称</view>
+<input bindinput="getn"></input>
+<view class="bt1" hover-class="bt1Hover" bindtap="a1" >选择教学文件</view>
+<block wx:for="{{list}}">
+  <view class="row">
+    <view class="pic">
+      <image src="/images/word.jpg"></image>
+    </view>
+    <view class="text">
+      <view class="title">{{item.name}}</view>
+    </view>
+  </view>
+</block>
+<view class="bt1" hover-class="bt1Hover" bindtap="a2" >选择教学视频</view>
+<video src="{{videourl}}" class="v1"></video>
+<button bindtap="fresh" type="primary">添加学习内容</button>
+</view>

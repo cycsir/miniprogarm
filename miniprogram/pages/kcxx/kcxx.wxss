@@ -1,0 +1,55 @@
+.banner{height:380rpx; border:1px solid white;}
+.jiemian {
+  width: 100%;
+  height: 132rpx;
+  background-color: #fff;
+  overflow: hidden;
+  margin-bottom: 24rpx;
+  border-radius: 5px;
+  border: 1px solid #D1D1D1;
+  padding-top: 40rpx;
+  padding-left: 18rpx;
+  font-size: 36rpx;
+}
+ .pic{width: 100rpx; height: 100rpx;
+  padding-left: 20rpx;
+}
+.jiemian1 {
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+  margin-bottom: 24rpx;
+  border-radius: 5px;
+  border: 1px solid #D1D1D1;
+  padding-left: 10rpx;
+}
+.t1{
+  margin-left: 20rpx;
+}
+.t2{
+  font-size: 33rpx;
+}
+.t3{
+  margin-top:10rpx ;
+  font-size: 25rpx;
+}
+.banner{height:280rpx; border:1px solid white;}
+.banner image{width: 100%; height: 280rpx;}
+.major .pic{width: 100rpx; height: 100rpx;}
+.major .txt{font-size: 26rpx;}
+.major .box{text-align: center; padding:0 34rpx;}
+.majorcon{display: flex; padding:20rpx 0}
+.jiemian2 {
+  display: flex;
+  margin-top:25rpx ;
+}
+.txt1{
+  margin-top:10rpx ;
+  font-size: 28rpx;
+  margin-left: 20rpx;
+}
+.pic1{width: 33rpx; height: 33rpx;margin-top: 8rpx; margin-right: 25rpx;}
+.a{margin-bottom: 60rpx;}
+input{
+  border:1rpx solid gray;
+}

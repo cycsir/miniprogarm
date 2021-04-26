@@ -1,0 +1,36 @@
+<view class="jiemian">
+  <view class="pic">
+  <open-data type="userAvatarUrl" bindtap="b"></open-data>
+  </view>
+  <open-data type="userNickName" bindtap="b"></open-data>
+</view>
+<view class="jiemian1">
+  <view class="t1">我的学习</view>
+  <scroll-view class="major" scroll-x>
+  <view class="majorcon">
+  <view class="box"> 
+    <image class="pic" src="/images/my/homework.png" mode="aspectFill"></image>
+    <view class="txt">作业问答</view>
+  </view>
+  <view class="box"> 
+    <image class="pic" src="/images/my/errorwork.png" mode="aspectFill"></image>
+    <view class="txt">错题本</view>
+  </view>
+  <view class="box"> 
+    <image class="pic" src="/images/my/exercise.png" mode="aspectFill"></image>
+    <view class="txt">我的练习</view>
+  </view>
+  <view class="box"> 
+    <image class="pic" src="/images/my/one_course.png" mode="aspectFill"></image>
+    <view class="txt">我的一课</view>
+  </view>
+  </view>
+</scroll-view>
+<view class="jiemian2 a" bindtap="a" wx:for="{{my_select}}">
+    
+    <image class="pic1" src="{{item.url}}" mode="aspectFill"></image>
+    <view class="txt1">{{item.title}}</view>
+   
+</view>
+
+</view>
